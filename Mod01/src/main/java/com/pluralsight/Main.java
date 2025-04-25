@@ -20,7 +20,6 @@ public class Main {
         int choice = 0;
         if(scanner.hasNextInt()){
             choice = scanner.nextInt();
-            System.out.println("You chose: " + choice);
         } else{
             scanner.next();
         }
