@@ -52,7 +52,7 @@ public class Main {
                     // call employee's getEmployeeID(), getName(), and getGrossPay();
                     // repeat for each line
 
-                    System.out.printf("%d | %s | %f | %f | Gross Pay: %f \n"
+                    System.out.printf("Employee ID: %d | Employee Name: %s | Hours Worked: %.2f | Pay Rate: %.2f | Gross Pay: %.2f \n"
                             , employeeID
                             , employeeName
                             , hoursWorked
